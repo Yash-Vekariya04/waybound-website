@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waybound — Ride Together, Stay Together</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- BACKGROUND -->
+  <div class="bg-grid"></div>
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <div class="bg-orb bg-orb-3"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Way<span>bound</span></div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#screenshots">Preview</a></li>
+      <li><a href="#howitworks">How it works</a></li>
+      <li><a href="#download" class="nav-cta">Download</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">
+      <div class="badge-dot"></div>
+      Now available for Android
+    </div>
+    <h1>
+      No matter where<br/>
+      the road takes you,<br/>
+      <span class="gradient-text">stay together.</span>
+    </h1>
+    <p>Waybound is a real-time group location tracking app for riders and travellers. Create a room, share the code, ride as one.</p>
+    <div class="hero-buttons">
+      <a href="#download" class="btn-primary">
+        <span>⬇</span>
+        <span>Download for Android</span>
+      </a>
+      <a href="#features" class="btn-secondary">See features →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-number">3s</div>
+        <div class="stat-label">Location refresh</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Free forever&star;</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">Group size</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-item"><span>📍</span> Real-time Tracking</div>
+      <div class="marquee-item"><span>🔗</span> Room System</div>
+      <div class="marquee-item"><span>🚨</span> SOS Alerts</div>
+      <div class="marquee-item"><span>🌙</span> Dark Mode</div>
+      <div class="marquee-item"><span>🗺️</span> Live Maps</div>
+      <div class="marquee-item"><span>⚡</span> Instant Updates</div>
+      <div class="marquee-item"><span>🔒</span> Secure Auth</div>
+      <div class="marquee-item"><span>🚴</span> Built for Riders</div>
+      <div class="marquee-item"><span>📍</span> Real-time Tracking</div>
+      <div class="marquee-item"><span>🔗</span> Room System</div>
+      <div class="marquee-item"><span>🚨</span> SOS Alerts</div>
+      <div class="marquee-item"><span>🌙</span> Dark Mode</div>
+      <div class="marquee-item"><span>🗺️</span> Live Maps</div>
+      <div class="marquee-item"><span>⚡</span> Instant Updates</div>
+      <div class="marquee-item"><span>🔒</span> Secure Auth</div>
+      <div class="marquee-item"><span>🚴</span> Built for Riders</div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="reveal">
+      <div class="section-tag">Features</div>
+      <h2 class="section-title">Everything you need.<br/>Nothing you don't.</h2>
+      <p class="section-sub">Built from the ground up for real riders. Clean, fast, and reliable when it matters most.</p>
+    </div>
+    <br/><br/>
+    <div class="features-grid reveal reveal-delay-1">
+      <div class="feature-card large">
+        <span class="feature-icon">📍</span>
+        <div class="feature-title">Real-time Location Sharing</div>
+        <div class="feature-desc">See every member of your group live on the map. Location updates every 3 seconds with 5 metre accuracy — so no one gets left behind, ever.</div>
+        <div class="feature-glow"></div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔗</span>
+        <div class="feature-title">Room System</div>
+        <div class="feature-desc">Create a room in seconds, share a simple code. Anyone can join instantly — no contact sharing needed.</div>
+        <div class="feature-glow"></div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🚨</span>
+        <div class="feature-title">SOS Safety Alert</div>
+        <div class="feature-desc">One tap sends an emergency alert to everyone in your group. Because safety is not optional.</div>
+        <div class="feature-glow"></div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🌙</span>
+        <div class="feature-title">Dark Mode</div>
+        <div class="feature-desc">Easy on the eyes during night rides. Your theme preference is saved and remembered automatically.</div>
+        <div class="feature-glow"></div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🗺️</span>
+        <div class="feature-title">OpenStreetMap</div>
+        <div class="feature-desc">Full English map, no API key, no hidden costs. Works everywhere in the world for free.</div>
+        <div class="feature-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS -->
+  <section class="screenshots" id="screenshots">
+    <div class="screenshots-header reveal">
+      <div class="section-tag">App Preview</div>
+      <h2 class="section-title">See it in action</h2>
+      <p class="section-sub">Clean, minimal, dark — designed for the road and built to last.</p>
+    </div>
+    <div class="phone-showcase reveal">
+      <div class="phone-frame">
+        <div class="phone-icon">🔑</div>
+        <div class="phone-label">Login</div>
+      </div>
+      <div class="phone-frame">
+        <div class="phone-icon">🏠</div>
+        <div class="phone-label">Home</div>
+      </div>
+      <div class="phone-frame center">
+        <div class="phone-icon">🗺️</div>
+        <div class="phone-label">Live Tracking</div>
+      </div>
+      <div class="phone-frame">
+        <div class="phone-icon">➕</div>
+        <div class="phone-label">Create Room</div>
+      </div>
+      <div class="phone-frame">
+        <div class="phone-icon">⚙️</div>
+        <div class="phone-label">Settings</div>
+      </div>
+    </div>
+    <p class="reveal screenshots-note">Screenshots coming soon</p>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="howitworks">
+    <div class="howitworks">
+      <div class="howitworks-header reveal">
+        <div class="section-tag">How it works</div>
+        <h2 class="section-title">Up and running<br/>in 30 seconds.</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal reveal-delay-1">
+          <div class="step-number">1</div>
+          <div class="step-title">Create an account</div>
+          <div class="step-desc">Sign up with just your name, email and password. No phone number, no OTP, no hassle.</div>
+        </div>
+        <div class="step reveal reveal-delay-2">
+          <div class="step-number">2</div>
+          <div class="step-title">Create or join a room</div>
+          <div class="step-desc">Create a room and share the code with your group — or enter a code to join someone's ride instantly.</div>
+        </div>
+        <div class="step reveal reveal-delay-3">
+          <div class="step-number">3</div>
+          <div class="step-title">Ride together</div>
+          <div class="step-desc">See everyone live on the map. Track, communicate, stay safe. No one gets left behind.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="download" id="download">
+    <div class="download-bg"></div>
+    <div class="download-card reveal">
+      <span class="download-emoji">🚴</span>
+      <div class="version-badge">
+        <div class="badge-dot"></div>
+        Version 1.0.0 · Android
+      </div>
+      <h2>Ready to ride<br/>together?</h2>
+      <p>Download Waybound for free. No Play Store needed — just download the APK, install, and go.</p>
+      <a href="YOUR_APK_LINK_HERE" class="btn-primary btn-center">
+        <span>⬇</span>
+        <span>Download APK — Free</span>
+      </a>
+      <p class="download-note">After downloading, tap the file and allow "Install from unknown sources" when prompted. Safe, free, and always will be.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Way<span>bound</span></div>
+      <ul class="footer-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Preview</a></li>
+        <li><a href="#download">Download</a></li>
+      </ul>
+      <p class="footer-copy">Built with ❤️ · © 2026 Waybound</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
